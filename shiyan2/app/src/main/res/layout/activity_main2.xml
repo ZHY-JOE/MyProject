@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="RED"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/orange"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:background="#FE9A2E"
+        android:gravity="center"
+        android:text="ORANGE"
+        app:layout_constraintLeft_toLeftOf="@id/red"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:background="#FFFF00"
+        android:text="YELLOW"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="76dp"
+        android:background="#01DF01"
+        android:gravity="center"
+        android:text="GREEN"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="76dp"
+        android:background="#0040FF"
+        android:gravity="center"
+        android:text="BLUE"
+        app:layout_constraintLeft_toLeftOf="@id/green"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/indigo"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="76dp"
+        android:background="#6A0888"
+        android:gravity="center"
+        android:text="INDIGO"
+        app:layout_constraintLeft_toLeftOf="@id/blue"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/violet"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#FA58D0"
+        android:gravity="center"
+        android:text="VIOLET"
+        android:layout_marginTop="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
