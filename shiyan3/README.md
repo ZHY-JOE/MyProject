@@ -1,15 +1,30 @@
-# 实验2
-## 一、线性布局
-[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan2/app/src/main/res/layout/activity_main.xml)</br>
-![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan2/1.png)
-在一个垂直方向的LinearLayout中嵌套4个水平方向的LinearLayout即可
+# 实验3 UI组件
+## 一、Android ListView的用法
+![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/1.png)
+利用SimpleAdapter实现
+### xml布局
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/res/layout/activity_main.xml)</br>
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/res/layout/activity_list.xml)</br>
+### java代码
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/java/com/example/shiyan3/MainActivity.java)</br>
 
-## 二、ConstraintLayout
-[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan2/app/src/main/res/layout/activity_main2.xml)</br>
-![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan2/2.png)
-用Android Studio的design和代码调整位置依赖关系
+## 二、创建自定义布局的AlertDialog
+![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/2.png)
+### xml布局
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/res/layout/activity_main2.xml)</br>
+### java代码
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/java/com/example/shiyan3/Main2Activity.java)</br>
 
-## 三、ConstraintLayout
-[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan2/app/src/main/res/layout/activity_main3.xml)</br>
-![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan2/3.png)
-每行写一个TableRow即可
+## 三、使用XML定义菜单
+![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/3.png)
+### xml布局
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/res/layout/activity_main3.xml)</br>
+### java代码
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/java/com/example/shiyan3/Main3Activity.java)</br>
+
+## 四、创建上下文操作模式(ActionMode)的上下文菜单
+![](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/4.png)
+### xml布局
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/res/layout/activity_main4.xml)</br>
+### java代码
+[代码](https://github.com/ZHY-JOE/MyProject/blob/master/shiyan3/app/src/main/java/com/example/shiyan3/Main4Activity.java)</br>
