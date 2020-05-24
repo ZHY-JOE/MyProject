@@ -1,2 +1,3 @@
-# MyProject
-这是移动软件开发的作业
+# 实验2
+## 一、线性布局
+![](https://github.com/ZHY-JOE/MyProject/tree/master/shiyan2/1.png)
