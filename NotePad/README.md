@@ -70,6 +70,8 @@
                       viewIDs
               );
 ```
+还要在NoteEditor.java里也添加获取时间的功能（这里是编辑Note时获取的时间）
+![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/5.png)<br>
 ### 效果截图
 ![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/1.png)<br>
 ## 二、添加笔记查询功能（根据标题查询） 
