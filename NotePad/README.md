@@ -111,7 +111,7 @@
 
 </LinearLayout>
 ```
-接着在菜单栏java文件的switch中，添加查找功能的case
+接着在菜单栏java文件的switch选择中，添加查找功能的case
 ```java
     case R.id.menu_search:
             /*
