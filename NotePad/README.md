@@ -76,6 +76,15 @@
 ![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/1.png)<br>
 ## 二、添加笔记查询功能（根据标题查询） 
 ### 过程及重要代码
+先在顶部的栏中添加查找的图标,这里用的是Android Studio自带图标库里的ic_menu_search<br>
+![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/6.png)<br>
+```java
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+```
 ### 效果截图
 ![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/2.png)<br>
 ![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/3.png)<br>
