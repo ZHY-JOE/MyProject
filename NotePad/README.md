@@ -75,3 +75,7 @@
 ### 效果截图
 ![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/1.png)<br>
 ## 二、添加笔记查询功能（根据标题查询） 
+### 过程及重要代码
+### 效果截图
+![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/2.png)<br>
+![](https://github.com/ZHY-JOE/MyProject/blob/master/NotePad/3.png)<br>
